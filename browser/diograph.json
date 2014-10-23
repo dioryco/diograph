@@ -3,7 +3,7 @@
     "diory": {
         "ID": "http://www.diograph.org/diory/2341257109285095426173412349087",
         "IRI": "",
-        "URL": "http://diograph.org/browser/index.diograph",
+        "URL": "http://diograph.org/browser/diograph.json",
         "name": "Welcome to the Personal Web!",
         "type": "room",
         "image": "http://diograph.org/browser/images/back.png",
