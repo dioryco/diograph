@@ -1,107 +1,36 @@
 {
-    "@context": {
-        "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "dct": "http://purl.org/dc/terms/",
-        "css": "http://www.w3.org/wiki/CSS/Properties/",
-        "diograph": "http://diograph.org/",
-        "diory": "http://diograph.org/diory/",
-
-        "ID": "@id",
-        "IRI": {
-            "@id": "dct:abstract",
-            "@type": "@id"
+    "@context": "http://diograph.org/schema/",
+    "diory": {
+        "ID": "http://www.diograph.org/diory/2341257109285095426173412349087",
+        "IRI": "",
+        "URL": "http://diograph.org/browser/index.diograph",
+        "name": "Welcome to the Personal Web!",
+        "type": "room",
+        "image": "http://diograph.org/browser/images/back.png",
+        "style": {
+            "back": {},
+            "caption": {},
+            "link": {}
         },
-        "URL": {
-            "@id": "dct:source",
-            "@type": "xsd:anyURI"
-        },
-        "name": "dct:title",
-        "type": "@type",
-        "image": "http://purl.org/dc/dcmitype/image",
-
-        "style": "diory:style",
-        "back": "diory:back",
-        "caption": "diory:caption",
-        "link": "diory:link",
-        "margin": "css:margin",
-        "height": "css:height",
-        "background": "css:background",
-        "font": "css:font",
-        "color": "css:color",
-
-        "date": {
-            "@id": "dct:date",
-            "@container": "@list"
-        },
-        "modified": {
-            "@id": "dct:modified",
-            "@type": "xsd:dateTime"
-        },
-        "created": {
-            "@id": "dct:created",
-            "@type": "xsd:dateTime"
-        },
-
-        "geo": "http://ld.geojson.org/vocab#",
-        "location": "geo:location",
-        "coordinates": {
-          "@id": "geo:coordinates",
-          "@container": "@list"
-        },
-        "Polygon": "geo:Polygon",
-        "Point": "geo:Point",
-
-        "agents": {
-            "@id": "diograph:agents",
-            "@container": "@list"
-        },
-        "agent": "diory:agent",
-        "connections": {
-            "@id": "diograph:connections",
-            "@container": "@list"
-        },
-        "doors": {
-            "@id": "diograph:doors",
-            "@container": "@list"
-        },
-        "room": "diory:room",
-
-        "position": "diory:position",
-        "top": "css:top",
-        "left": "css:left",
-        "height": "css:height",
-        "width": "css:width"
-
+        "location": {},
+        "date": [],
+        "created": "2014-10-23T13:00:00Z",
+        "modified": "2014-10-23T13:00:00Z"
     },
-    "ID": "http://www.diograph.org/diory/2341257109285095426173412349087",
-    "IRI": "",
-    "URL": "http://diograph.org/browser/index.diograph",
-    "name": "Welcome to the Personal Web!",
-    "type": "room",
-    "image": "http://diograph.org/browser/images/back.png",
-    "style": {
-        "back": {},
-        "caption": {},
-        "link": {}
-    },
-    "location": {},
-    "date": [],
-    "created": "2014-10-23T13:00:00Z",
-    "modified": "2014-10-23T13:00:00Z",
-    "agents": [
+    "participants": [
         {
             "position": {
             },
-            "status": "on",
-            "new": 20,
+            "status": "off",
+            "newItems": 0,
             "agent": {
                 "diory": {
-                    "ID": "http://diograph.org/diory/23412571092850918273412349087",
+                    "ID": "http://diograph.org/diory/1",
                     "IRI": null,
                     "URL": "http://diograph.org/browser/",
-                    "name": "Me",
+                    "name": "Browser",
                     "type": "agent",
-                    "image": "https://media.licdn.com/media/p/2/000/19c/0f2/08554ca.jpg",
+                    "image": "http://diograph.org/browser/images/browser.png",
                     "style": {},
                     "location": {},
                     "date": [],
@@ -111,11 +40,11 @@
                 "tools": [
                     {
                         "position": {},
-                        "status": "on",
-                        "new": 4,
+                        "status": "off",
+                        "newItems": 0,
                         "tool": {
                             "diory": {
-                                "ID": "http://diograph.org/diory/22154543212398709812341234",
+                                "ID": "http://diograph.org/diory/2",
                                 "IRI": null,
                                 "URL": "http://diograph.org/browser/edit.js",
                                 "name": "Edit",
@@ -131,11 +60,11 @@
                     },
                     {
                         "position": {},
-                        "status": "on",
-                        "new": 4,
+                        "status": "off",
+                        "newItems": 0,
                         "tool": {
                             "diory": {
-                                "ID": "http://diograph.org/diory/22154543212398709812341234",
+                                "ID": "http://diograph.org/diory/3",
                                 "IRI": null,
                                 "URL": "http://diograph.org/browser/search.js",
                                 "name": "Search",
@@ -162,11 +91,11 @@
                 "height": "initial",
                 "padding-bottom": "12%"
             },
-            "status": "on",
-            "new": 4,
+            "status": "off",
+            "newItems": 0,
             "room": {
                 "diory": {
-                    "ID": "http://diograph.org/diory/2215412398709812341234",
+                    "ID": "http://diograph.org/diory/4",
                     "IRI": null,
                     "URL": "index.diograph",
                     "name": "Open door to your Personal Web",
@@ -189,11 +118,11 @@
                 "width":"20%",
                 "height": "20%"
             },
-            "status": "on",
-            "new": 0,
+            "status": "off",
+            "newItems": 0,
             "object": {
                 "diory": {
-                    "ID": "http://diograph.org/diory/22154123643987098123412342",
+                    "ID": "http://diograph.org/diory/5",
                     "IRI": null,
                     "URL": "",
                     "name": "Diograph.org is an open source library for the Personal Web.",
@@ -208,8 +137,8 @@
                     "created": "2014-10-23T13:05:00Z",
                     "modified": "2014-10-23T13:05:00Z"
                 },
-                data: {},
-                connections: []
+                "data": {},
+                "connections": []
             }
         },
         {
@@ -219,13 +148,13 @@
                 "width":"20%",
                 "height": "20%"
             },
-            "status": "on",
-            "new": 0,
+            "status": "off",
+            "newItems": 0,
             "object": {
                 "diory": {
-                    "ID": "http://diograph.org/diory/2215543412398709812341234",
+                    "ID": "http://diograph.org/diory/6",
                     "IRI": null,
-                    "URL": "http://personalweb.me,
+                    "URL": "http://personalweb.me",
                     "name": "Personal Web blog (in Finnish)",
                     "type": "diory",
                     "image": "",
@@ -238,8 +167,8 @@
                     "created": "2014-10-23T13:06:00Z",
                     "modified": "2014-10-23T13:06:00Z"
                 },
-                data: {},
-                connections: []
+                "data": {},
+                "connections": []
             }
         }
     ],

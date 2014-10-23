@@ -1,0 +1,81 @@
+{
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "css": "http://www.w3.org/wiki/CSS/Properties/",
+
+    "diograph": "http://diograph.org/schema",
+    "diory": "diograph:diory",
+
+    "ID": "@id",
+    "IRI": {
+        "@id": "dct:abstract",
+        "@type": "@id"
+    },
+    "URL": {
+        "@id": "dct:source",
+        "@type": "xsd:anyURI"
+    },
+    "name": "dct:title",
+    "type": "@type",
+    "image": "http://purl.org/dc/dcmitype/image",
+
+    "style": "diograph:style",
+    "back": "style:back",
+    "caption": "style:caption",
+    "link": "style:link",
+
+    "background": "css:background",
+    "font": "css:font",
+    "color": "css:color",
+
+    "date": {
+        "@id": "dct:date",
+        "@container": "@list"
+    },
+    "modified": {
+        "@id": "dct:modified",
+        "@type": "xsd:dateTime"
+    },
+    "created": {
+        "@id": "dct:created",
+        "@type": "xsd:dateTime"
+    },
+
+    "geo": "http://ld.geojson.org/vocab#",
+    "location": "geo:location",
+    "coordinates": {
+        "@id": "geo:coordinates",
+        "@container": "@list"
+    },
+    "Polygon": "geo:Polygon",
+    "Point": "geo:Point",
+
+    "position": "style:position",
+    "left": "css:left",
+    "top": "css:top",
+    "width": "css:width",
+    "height": "css:height",
+    "status": "diograph:status",
+    "newItems": "diograph:newItems",
+
+    "doors": {
+        "@id": "diograph:doors",
+        "@container": "@list"
+    },
+    "room": "diograph:room",
+    "participants": {
+        "@id": "diograph:participants",
+        "@container": "@list"
+    },
+    "agent": "diograph:agent",
+    "connections": {
+        "@id": "diograph:connections",
+        "@container": "@list"
+    },
+    "object": "diograph:object",
+    "timeline": {
+        "@id": "diograph:timeline",
+        "@container": "@list"
+    },
+    "moment": "diograph:moment"
+}
