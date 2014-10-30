@@ -1,0 +1,277 @@
+Diograph.callback("http://diograph.org/diory/1",{
+    "@context": "http://diograph.org/schema/",
+    "diory": {
+        "ID": "http://diograph.org/diory/1",
+        "IRI": "",
+        "URL": "http://personal-web.org/diograph.jsonp",
+        "name": "Welcome to the Personal Web!",
+        "type": "room",
+        "image": "http://personal-web.org/images/back.jpg",
+        "style": {
+            "back": {},
+            "caption": {},
+            "link": {}
+        },
+        "location": {},
+        "date": ["2014-10-31T12:00:00+02:00"],
+        "created": "2014-10-23T13:00:00Z",
+        "modified": "2014-10-23T13:00:00Z"
+    },
+    "position": {},
+    "status": "on",
+    "newItems": 0,
+    "agents": [
+        {
+            "diory": {
+                "ID": "http://diograph.org/diory/11",
+                "IRI": null,
+                "URL": "http://diory.co/diograph/browser/",
+                "name": "Browser",
+                "type": "agent",
+                "image": "http://diory.co/diograph/browser/images/browser.png",
+                "style": {},
+                "location": {},
+                "date": [],
+                "created": "2014-10-23T13:01:00Z",
+                "modified": "2014-10-23T13:01:00Z"
+            },
+            "position": {},
+            "status": "off",
+            "newItems": 0,
+            "tools": [
+                {
+                    "diory": {
+                        "ID": "http://diograph.org/diory/112",
+                        "IRI": null,
+                        "URL": "http://diory.co/diograph/browser/diory",
+                        "name": "Diory",
+                        "type": "tool",
+                        "image": "http://diory.co/diograph/browser/images/diory.png",
+                        "style": {},
+                        "location": {},
+                        "date":  [],
+                        "created": "2014-10-30T23:02:00+02:00",
+                        "modified": "2014-10-30T23:02:00+02:00"
+                    },
+                    "position": {},
+                    "status": "off",
+                    "newItems": 0,
+                    "html": {},
+                    "css": {},
+                    "js": {}
+                },
+                {
+                    "diory": {
+                        "ID": "http://diograph.org/diory/113",
+                        "IRI": null,
+                        "URL": "http://diory.co/diograph/browser/diosphere",
+                        "name": "Diosphere",
+                        "type": "tool",
+                        "image": "http://diory.co/diograph/browser/images/diosphere.png",
+                        "style": {},
+                        "location": {},
+                        "date":  [],
+                        "created": "2014-10-30T23:02:00+02:00",
+                        "modified": "2014-10-30T23:02:00+02:00"
+                    },
+                    "position": {},
+                    "status": "off",
+                    "newItems": 0,
+                    "html": {},
+                    "css": {},
+                    "js": {}
+                },
+                {
+                    "diory": {
+                        "ID": "http://diograph.org/diory/114",
+                        "IRI": null,
+                        "URL": "http://diory.co/diograph/browser/timeline",
+                        "name": "Timeline",
+                        "type": "tool",
+                        "image": "http://diory.co/diograph/browser/images/search.png",
+                        "style": {},
+                        "location": {},
+                        "date":  [],
+                        "created": "2014-10-30T23:02:00+02:00",
+                        "modified": "2014-10-30T23:02:00+02:00"
+                    },
+                    "position": {},
+                    "status": "off",
+                    "newItems": 0,
+                    "html": {},
+                    "css": {},
+                    "js": {}
+                }
+            ]
+        }
+    ],
+    "doors": [
+        {
+            "diory": {
+                "ID": "http://diograph.org/diory/5",
+                "IRI": null,
+                "URL": "diograph.jsonp",
+                "name": "Door to your Personal Web",
+                "type": "room",
+                "image": "http://diory.co/diograph/browser/images/door.png",
+                "style": {
+                    "back": {
+                         "background": "rgb(77,191,217)"
+                    }
+                },
+                "location": {},
+                "date":  [],
+                "created": "2014-10-23T13:04:00Z",
+                "modified": "2014-10-23T13:04:00Z"
+            },
+            "position": {
+                "top": "25%",
+                "left": "40%",
+                "width": "12%",
+                "height": "initial",
+                "padding-bottom": "12%"
+            },
+            "status": "off",
+            "newItems": 0
+        }
+    ],
+    "objects": [
+        {
+            "diory": {
+                "ID": "http://diograph.org/diory/6",
+                "IRI": null,
+                "URL": "",
+                "name": "Diograph.org",
+                "type": "object",
+                "image": "",
+                "style": {
+                    "back": {
+                        "background": "rgba(84,97,112,0.8)"
+                    }
+                },
+                "text": "Open source library for the Personal Web.",
+                "location": {},
+                "date": ["2014-11-15T12:00:00+02:00"],
+                "created": "2014-10-23T13:05:00Z",
+                "modified": "2014-10-23T13:05:00Z"
+            },
+            "position": {
+                "left": "0%",
+                "top": "0%",
+                "width":"20%",
+                "height": "20%"
+            },
+            "status": "off",
+            "newItems": 0,
+            "data": [],
+            "objects": []
+        },
+        {
+            "diory": {
+                "ID": "http://diograph.org/diory/7",
+                "IRI": null,
+                "URL": "http://personalweb.me",
+                "name": "Personal Web blog (in Finnish only)",
+                "type": "object",
+                "image": "http://personalwebme.files.wordpress.com/2014/04/cropped-5553189_ml.jpg",
+                "style": {
+                    "back": {
+                        "background": "rgba(125,56,148,0.8)"
+                    }
+                },
+                "text": "",
+                "location": {},
+                "date": ["2014-04-15T12:06:00+02:00"],
+                "created": "2014-10-23T13:06:00Z",
+                "modified": "2014-10-23T13:06:00Z"
+            },
+            "position": {
+                "left": "20%",
+                "top": "20%",
+                "width":"20%",
+                "height": "20%"
+            },
+            "status": "off",
+            "newItems": 0,
+            "data": [],
+            "objects": []
+        },
+        {
+            "diory": {
+                "ID": "http://diograph.org/diory/8",
+                "IRI": null,
+                "URL": "http://personal-web.me",
+                "name": "Personal Web is up :)",
+                "type": "object",
+                "image": "",
+                "style": {
+                    "back": {
+                        "background": "rgb(245,181,0)"
+                    }
+                },
+                "text": "",
+                "location": {},
+                "date": ["2014-10-30T18:35:00+02:00"],
+                "created": "2014-10-23T13:06:00Z",
+                "modified": "2014-10-23T13:06:00Z"
+            },
+            "position": {
+                "left": "0%",
+                "top": "40%",
+                "width":"20%",
+                "height": "20%"
+            },
+            "status": "off",
+            "newItems": 0,
+            "data": [],
+            "objects": []
+        }
+    ],
+    "moments": [
+        {
+            "diory": {
+                "ID": "http://diograph.org/diory/2014",
+                "IRI": null,
+                "URL": "",
+                "name": "2014",
+                "type": "year",
+                "image": "",
+                "style": {
+                    "caption": {
+                        "background": "rgba(84,97,112,0.8)"
+                    }
+                },
+                "text": "",
+                "location": {},
+                "date": ["2014-01-01T00:00:00+02:00","2014-31-12T23:59:59+02:00"],
+                "created": "2014-10-23T13:05:00Z",
+                "modified": "2014-10-23T13:05:00Z"
+            },
+            "position": {
+                "left": "0%",
+                "top": "0%",
+                "width":"20%",
+                "height": "20%"
+            },
+            "status": "off",
+            "newItems": 0,
+            "objects": [
+                {
+                    "diory": {
+                        "ID": "http://diograph.org/diory/7"
+                    },
+                    "position": {
+                        "left": "0%",
+                        "top": "0%",
+                        "width":"20%",
+                        "height": "20%"
+                    },
+                    "status": "off",
+                    "newItems": 0
+                }
+            ],
+            "actions": []
+        }
+    ],
+    "places": []
+});

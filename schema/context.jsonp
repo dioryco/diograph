@@ -1,4 +1,4 @@
-{
+Diograph.callback("http://diograph.org/schema",{
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
     "css": "http://www.w3.org/wiki/CSS/Properties/",
@@ -55,6 +55,7 @@
     "top": "css:top",
     "width": "css:width",
     "height": "css:height",
+		"padding-bottom": "css:padding-bottom",
     "status": "diograph:status",
     "newItems": "diograph:newItems",
 
@@ -62,20 +63,28 @@
         "@id": "diograph:doors",
         "@container": "@list"
     },
-    "room": "diograph:room",
-    "participants": {
-        "@id": "diograph:participants",
+    "agents": {
+        "@id": "diograph:agents",
         "@container": "@list"
     },
-    "agent": "diograph:agent",
-    "connections": {
-        "@id": "diograph:connections",
+		"tools": {
+				"@id": "diograph:tools",
+				"@container": "@list"
+		},
+    "objects": {
+        "@id": "diograph:objects",
         "@container": "@list"
     },
-    "object": "diograph:object",
-    "timeline": {
-        "@id": "diograph:timeline",
+    "moments": {
+        "@id": "diograph:moments",
         "@container": "@list"
     },
-    "moment": "diograph:moment"
+		"actions": {
+				"@id": "diograph:actions",
+				"@container": "@list"
+		},
+		"places": {
+				"@id": "diograph:places",
+				"@container": "@list"
+		}
 }
