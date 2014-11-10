@@ -1,7 +1,7 @@
 Diograph.room("http://diograph.org/diory/1",{
     "@context": "http://diograph.org/schema/",
     "diory": {
-        "ID": "http://diograph.org/diory/1",
+        "ID": "http://diograph.org/diory/0",
         "IRI": "",
         "URL": "http://diograph.org/browser/diograph.json",
         "name": "Welcome to the Personal Web!",
@@ -135,7 +135,7 @@ Diograph.room("http://diograph.org/diory/1",{
             },
 						"room": {
 							"diory": {
-								"ID": "http://diograph.org/diory/21",
+								"ID": "http://diograph.org/diory/1",
 								"IRI": null,
 								"URL": "room.json",
 								"name": "Home room",
