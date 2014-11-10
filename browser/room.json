@@ -117,9 +117,9 @@ Diograph.room("http://diograph.org/diory/1",{
 						"status": "off",
 						"newItems": 0,
             "diory": {
-                "ID": "http://diograph.org/diory/5",
+                "ID": "http://diograph.org/diory/20",
                 "IRI": null,
-                "URL": "room.json",
+                "URL": "",
                 "name": "Door",
                 "type": "door",
                 "image": "http://diory.co/diograph/browser/images/door.png",
@@ -135,10 +135,10 @@ Diograph.room("http://diograph.org/diory/1",{
             },
 						"room": {
 							"diory": {
-								"ID": "http://diograph.org/diory/5",
+								"ID": "http://diograph.org/diory/21",
 								"IRI": null,
-								"URL": "diograph.json",
-								"name": "Home",
+								"URL": "room.json",
+								"name": "Home room",
 								"type": "room",
 								"image": "http://diory.co/diograph/browser/images/room.png",
 								"style": {
