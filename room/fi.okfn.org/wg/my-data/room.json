@@ -1,0 +1,338 @@
+Diograph.room('http://diograph.org/room/fi.okfn.org/wg/my-data/',{
+	"position": {},
+	"status": "on",
+	"newItems": 5,
+	"diory": {
+		"ID": "http://diograph.org/room/fi.okfn.org/wg/my-data/",
+		"IRI": null,
+		"URL": "http://fi.okfn.org/wg/my-data/",
+		"name": "My Data -tyoryhma",
+		"type": "room",
+		"image": "https://farm8.staticflickr.com/7032/6437200339_8f063f274e_z.jpg",
+		"style": {},
+		"location": {
+			"type": "Point",
+			"coordinates": [60.1842864, 24.9492727, 14]
+		},
+		"date": [],
+		"created": "2014-10-22T13:16:00Z",
+		"modified": "2014-10-22T13:16:00Z"
+	},
+	"agents": [
+		{
+			"position": {
+				"left": "35%"
+			},
+			"status": "off",
+			"newItems": 0,
+
+			"diory": {
+				"ID": "http://www.diograph.org/diory/2341253346092850918273412349088",
+				"IRI": null,
+				"URL": "jogi@okf.fi",
+				"name": "Antti Jogi Poikola",
+				"type": "agent",
+				"image": "http://d13pix9kaak6wt.cloudfront.net/avatar/apoikola_1320161305_8.jpg",
+				"style": {},
+				"location": {},
+				"date": [],
+				"created": "2014-10-22T13:16:00Z",
+				"modified": "2014-10-22T13:16:00Z"
+			},
+			"tools": []
+		},
+		{
+			"position": {
+				"left": "65%"
+			},
+			"status": "off",
+			"newItems": 0,
+
+			"diory": {
+				"ID": "http://www.diograph.org/diory/23412571092850918273412349087",
+				"IRI": null,
+				"URL": "op@diory.me",
+				"name": "Olli-Pekka Pohjola",
+				"type": "agent",
+				"image": "https://media.licdn.com/media/p/2/000/19c/0f2/08554ca.jpg",
+				"style": {},
+				"location": {},
+				"date": [],
+				"created": "2014-10-22T13:16:00Z",
+				"modified": "2014-10-22T13:16:00Z"
+			},
+			"tools": []
+
+		},
+		{
+			"position": {
+				"left": "50%"
+			},
+			"status": "off",
+			"newItems": 0,
+
+			"diory": {
+				"ID": "http://www.diograph.org/diory/23412571092850918273412349088",
+				"IRI": null,
+				"URL": "jouni@diory.me",
+				"name": "Jouni Alanen",
+				"type": "agent",
+				"image": "https://pbs.twimg.com/profile_images/1622122219/DSCN1282_3_400x400.jpg",
+				"style": {},
+				"location": {},
+				"date": [],
+				"created": "2014-10-22T13:16:00Z",
+				"modified": "2014-10-22T13:16:00Z"
+			},
+			"tools": []
+
+		}
+	],
+	"doors": [],
+	"objects": [
+		{
+			"position": {
+				"left": "0%",
+				"top": "0%",
+				"width": "20%",
+				"height": "20%"
+			},
+			"status": "on",
+			"newItems": 0,
+			"diory": {
+				"ID": "http://diograph.org/diory/123948712098374123478910234"
+			},
+			"data": {},
+			"objects": []
+		},
+		{
+			"position": {
+				"left": "60%",
+				"top": "0%",
+				"width": "40%",
+				"height": "80%"
+			},
+			"status": "on",
+			"newItems": 0,
+
+			"diory": {
+				"ID": "http://www.diograph.org/diory/12234523412098374123478910234",
+				"IRI": null,
+				"URL": "http://www.lvm.fi/c/document_library/get_file?folderId=3082152&name=DLFE-25061.pdf&title=My%20data%20-%20johdatus%20ihmiskeskeiseen%20henkilotiedon%20hyodyntamiseen",
+				"name": "My Data -johdatus ihmiskeskeiseen henkilötiedon hyödyntämiseen",
+				"type": "object",
+				"image": "https://raw.githubusercontent.com/okffi/mydata/master/fi/images/image-cover.jpg",
+				"style": {},
+				"location": {},
+				"date": [],
+				"created": "2014-10-22T13:16:00Z",
+				"modified": "2014-10-22T13:16:00Z"
+			},
+			"data": {},
+			"objects": []
+
+		},
+		{
+			"position": {
+				"left": "20%",
+				"top": "20%",
+				"width": "20%",
+				"height": "20%"
+			},
+			"status": "on",
+			"newItems": 0,
+
+			"diory": {
+				"ID": "http://www.diograph.org/diory/12234523412098374123478910234",
+				"IRI": null,
+				"URL": "https://pad.okfn.org/p/mydata",
+				"name": "My Data pad",
+				"type": "object",
+				"image": "",
+				"style": {
+					"back": {
+						"background-color": "rgba(84,97,112)"
+					}
+				},
+				"location": {},
+				"date": [],
+				"created": "2014-10-22T13:16:00Z",
+				"modified": "2014-10-22T13:16:00Z"
+			},
+			"data": {},
+			"objects": [
+			]
+
+		},
+		{
+			"position": {
+				"left": "20%",
+				"top": "60%",
+				"width": "20%",
+				"height": "20%"
+			},
+			"status": "on",
+			"newItems": 0,
+			"diory": {
+				"ID": "http://www.diograph.org/diory/1223452534520986456374123478910234",
+				"IRI": null,
+				"URL": "http://bit.ly/osuuskunta-taskforce",
+				"name": "My Data -osuuskunta, dokumentti",
+				"type": "object",
+				"image": "",
+				"style": {
+					"back": {
+						"background-color": "rgb(125,56,148)"
+					}
+				},
+				"location": {},
+				"date": [],
+				"created": "2014-10-22T13:16:00Z",
+				"modified": "2014-10-22T13:16:00Z"
+			},
+			"data": {},
+			"objects": []
+		},
+		{
+			"position": {
+				"left": "0%",
+				"top": "60%",
+				"width": "20%",
+				"height": "20%"
+			},
+			"status": "on",
+			"newItems": 0,
+			"diory": {
+				"ID": "http://www.diograph.org/diory/122345253452098374123478910234",
+				"IRI": null,
+				"URL": "http://okf.fi/mydata-arkkitehtuuri",
+				"name": "My Data -arkkitehtuuri, esitys ",
+				"type": "object",
+				"image": "",
+				"style": {
+					"back": {
+						"background-color": "rgb(125,56,148)"
+					}
+				},
+				"location": {},
+				"date": [],
+				"created": "2014-10-22T13:16:00Z",
+				"modified": "2014-10-22T13:16:00Z"
+			},
+			"data": {},
+			"objects": [
+			]
+		},
+		{
+			"position": {
+				"left": "40%",
+				"top": "0%",
+				"width": "20%",
+				"height": "20%"
+			},
+			"status": "on",
+			"newItems": 0,
+			"diory": {
+				"ID": "http://www.diograph.org/diory/1223452534652098374123478910234",
+				"IRI": null,
+				"URL": "https://www.facebook.com/groups/426904980732376/",
+				"name": "Facebook-ryhmä",
+				"type": "object",
+				"image": "http://fi.okfn.org/files/2013/03/Facebook-logo-small2.gif",
+				"style": {},
+				"location": {},
+				"date": [],
+				"created": "2014-10-22T13:16:00Z",
+				"modified": "2014-10-22T13:16:00Z"
+			},
+			"data": {},
+			"objects": [
+			]
+		},
+		{
+			"position": {
+				"left": "40%",
+				"top": "40%",
+				"width": "20%",
+				"height": "20%"
+			},
+			"status": "on",
+			"newItems": 0,
+			"diory": {
+				"ID": "http://www.diograph.org/diory/122345253452054323423478910234",
+				"IRI": null,
+				"URL": "http://bit.ly/my_data_kansio",
+				"name": "Google Drive",
+				"type": "object",
+				"image": "http://fi.okfn.org/files/2013/03/google-drive-logo-150x150.png",
+				"style": {},
+				"location": {},
+				"date": [],
+				"created": "2014-10-22T13:16:00Z",
+				"modified": "2014-10-22T13:16:00Z"
+			},
+			"data": {},
+			"objects": [
+			]
+		},
+		{
+			"position": {
+				"left": "40%",
+				"top": "60%",
+				"width": "20%",
+				"height": "20%"
+			},
+			"status": "on",
+			"newItems": 0,
+			"diory": {
+				"ID": "http://www.diograph.org/diory/3456346234652346235",
+				"IRI": null,
+				"URL": "",
+				"name": "Architecture meeting, October 20, 2014",
+				"type": "object",
+				"image": "",
+				"style": {
+					"back": {
+						"background-color": "rgba(84,97,112,1)"
+					}
+				},
+				"location": {},
+				"date": ["2014-10-20T16:00:00+03:00", "2014-10-20T19:00:00+03:00"],
+				"created": "2014-10-22T13:16:00Z",
+				"modified": "2014-10-22T13:16:00Z"
+			},
+			"data": {},
+			"objects": [
+			]
+		},
+		{
+      "position": {
+				"left": "40%",
+				"top": "80%",
+				"width": "20%",
+				"height": "20%"
+			},
+			"status": "on",
+			"newItems": 0,
+			"diory": {
+				"ID": "http://www.diograph.org/diory/3456346234323414652346235",
+				"IRI": null,
+				"URL": "https://www.eventbrite.com/e/mydata-ekosysteemit-kansallisen-kilpailukyvyn-lahteena-tickets-13683705331",
+				"name": "MyData-ekosysteemit kansallisen kilpailukyvyn lähteenä",
+				"type": "object",
+				"image": "",
+				"style": {
+				"back": {
+				"background-color": "rgba(84,97,112,1)"
+				}
+				},
+				"location": {},
+				"date": ["2014-11-25T16:15:00+03:00", "2014-10-20T19:30:00+03:00"],
+				"created": "2014-11-10T13:16:00Z",
+				"modified": "2014-11-10T13:16:00Z"
+			},
+			"data": {},
+			"objects": []
+		}
+	]
+});

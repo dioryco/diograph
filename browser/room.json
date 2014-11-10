@@ -1,4 +1,4 @@
-Diograph.callback("http://diograph.org/diory/1",{
+Diograph.room("http://diograph.org/diory/1",{
     "@context": "http://diograph.org/schema/",
     "diory": {
         "ID": "http://diograph.org/diory/1",
@@ -6,7 +6,7 @@ Diograph.callback("http://diograph.org/diory/1",{
         "URL": "http://diograph.org/browser/diograph.json",
         "name": "Welcome to the Personal Web!",
         "type": "room",
-        "image": "http://diograph.org/browser/images/back.jpg",
+        "image": "http://diory.co/diograph/browser/images/back.jpg",
         "style": {
             "back": {},
             "caption": {},
@@ -28,7 +28,7 @@ Diograph.callback("http://diograph.org/diory/1",{
                 "URL": "http://diory.co/diograph/browser/",
                 "name": "Browser",
                 "type": "agent",
-                "image": "http://diory.co/diograph/browser/images/browser.png",
+                "image": "http://diory.co/diograph/browser/images/browser.jpg",
                 "style": {},
                 "location": {},
                 "date": [],
@@ -44,7 +44,7 @@ Diograph.callback("http://diograph.org/diory/1",{
                         "ID": "http://diograph.org/diory/112",
                         "IRI": null,
                         "URL": "http://diory.co/diograph/browser/diory",
-                        "name": "Diory",
+                        "name": "Diograph",
                         "type": "tool",
                         "image": "http://diory.co/diograph/browser/images/diory.png",
                         "style": {},
@@ -107,16 +107,25 @@ Diograph.callback("http://diograph.org/diory/1",{
     ],
     "doors": [
         {
+						"position": {
+							"top": "25%",
+							"left": "40%",
+							"width": "12%",
+							"height": "initial",
+							"padding-bottom": "12%"
+						},
+						"status": "off",
+						"newItems": 0
             "diory": {
                 "ID": "http://diograph.org/diory/5",
                 "IRI": null,
-                "URL": "diograph.json",
-                "name": "Door to your Personal Web",
-                "type": "room",
+                "URL": "room.json",
+                "name": "Door",
+                "type": "door",
                 "image": "http://diory.co/diograph/browser/images/door.png",
                 "style": {
                     "back": {
-                         "background": "rgb(77,191,217)"
+                         "background-color": "rgb(77,191,217)"
                     }
                 },
                 "location": {},
@@ -124,15 +133,25 @@ Diograph.callback("http://diograph.org/diory/1",{
                 "created": "2014-10-23T13:04:00Z",
                 "modified": "2014-10-23T13:04:00Z"
             },
-            "position": {
-                "top": "25%",
-                "left": "40%",
-                "width": "12%",
-                "height": "initial",
-                "padding-bottom": "12%"
-            },
-            "status": "off",
-            "newItems": 0
+						"room": {
+							"diory": {
+								"ID": "http://diograph.org/diory/5",
+								"IRI": null,
+								"URL": "diograph.json",
+								"name": "Home",
+								"type": "room",
+								"image": "http://diory.co/diograph/browser/images/room.png",
+								"style": {
+									"back": {
+										"background-color": "rgb(171,197,55)"
+									}
+								},
+								"location": {},
+								"date":  [],
+								"created": "2014-10-23T13:04:00Z",
+								"modified": "2014-10-23T13:04:00Z"
+							}
+						}
         }
     ],
     "objects": [
@@ -146,7 +165,7 @@ Diograph.callback("http://diograph.org/diory/1",{
                 "image": "",
                 "style": {
                     "back": {
-                        "background": "rgba(84,97,112,0.8)"
+                        "background-color": "rgba(84,97,112,0.8)"
                     }
                 },
                 "text": "Open source library for the Personal Web.",
@@ -176,7 +195,7 @@ Diograph.callback("http://diograph.org/diory/1",{
                 "image": "http://personalwebme.files.wordpress.com/2014/04/cropped-5553189_ml.jpg",
                 "style": {
                     "back": {
-                        "background": "rgba(125,56,148,0.8)"
+                        "background-color": "rgba(125,56,148,0.8)"
                     }
                 },
                 "text": "",
@@ -206,7 +225,7 @@ Diograph.callback("http://diograph.org/diory/1",{
                 "image": "",
                 "style": {
                     "back": {
-                        "background": "rgb(245,181,0)"
+                        "background-color": "rgb(245,181,0)"
                     }
                 },
                 "text": "",
@@ -227,51 +246,6 @@ Diograph.callback("http://diograph.org/diory/1",{
             "objects": []
         }
     ],
-    "moments": [
-        {
-            "diory": {
-                "ID": "http://diograph.org/diory/2014",
-                "IRI": null,
-                "URL": "",
-                "name": "2014",
-                "type": "year",
-                "image": "",
-                "style": {
-                    "caption": {
-                        "background": "rgba(84,97,112,0.8)"
-                    }
-                },
-                "text": "",
-                "location": {},
-                "date": ["2014-01-01T00:00:00+02:00","2014-31-12T23:59:59+02:00"],
-                "created": "2014-10-23T13:05:00Z",
-                "modified": "2014-10-23T13:05:00Z"
-            },
-            "position": {
-                "left": "0%",
-                "top": "0%",
-                "width":"20%",
-                "height": "20%"
-            },
-            "status": "off",
-            "newItems": 0,
-            "objects": [
-                {
-                    "diory": {
-                        "ID": "http://diograph.org/diory/7"
-                    },
-                    "position": {
-                        "left": "0%",
-                        "top": "0%",
-                        "width":"20%",
-                        "height": "20%"
-                    },
-                    "status": "off",
-                    "newItems": 0
-                }
-            ],
-            "actions": []
-        }
-    ],
+    "moments": [],
     "places": []
 });
