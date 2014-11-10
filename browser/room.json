@@ -1,4 +1,4 @@
-Diograph.room("http://diograph.org/diory/1",{
+Diograph.room("http://diograph.org/diory/0",{
     "@context": "http://diograph.org/schema/",
     "diory": {
         "ID": "http://diograph.org/diory/0",
@@ -117,7 +117,7 @@ Diograph.room("http://diograph.org/diory/1",{
 						"status": "off",
 						"newItems": 0,
             "diory": {
-                "ID": "http://diograph.org/diory/20",
+                "ID": "http://diograph.org/diory/2",
                 "IRI": null,
                 "URL": "",
                 "name": "Door",
