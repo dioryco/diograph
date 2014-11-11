@@ -9,8 +9,8 @@ Diograph.room("http://diograph.org/diory/0",{
         "image": "http://diory.co/diograph/browser/images/back.jpg",
         "style": {
             "back": {},
-            "caption": {},
-            "link": {}
+            "name": {},
+            "connection": {}
         },
         "location": {},
         "date": ["2014-10-31T12:00:00+02:00"],
@@ -144,6 +144,9 @@ Diograph.room("http://diograph.org/diory/0",{
 								"style": {
 									"back": {
 										"background-color": "rgb(171,197,55)"
+									},
+									"name": {
+										"color": "black"
 									}
 								},
 								"location": {},
