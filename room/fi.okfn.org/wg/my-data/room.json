@@ -1,11 +1,11 @@
-Diograph.room('http://diograph.org/room/fi.okfn.org/wg/my-data/',{
+Diograph.room('http://diograph.org/diory/fi.okfn.org/wg/my-data/',{
 	"position": {},
 	"status": "on",
 	"newItems": 5,
 	"diory": {
-		"ID": "http://diograph.org/room/fi.okfn.org/wg/my-data/",
+		"ID": "http://diograph.org/diory/fi.okfn.org/wg/my-data/",
 		"IRI": null,
-		"URL": "http://fi.okfn.org/wg/my-data/",
+		"address": "http://diory.co/diograph/room/fi.okfn.org/wg/my-data/",
 		"name": "My Data -tyoryhma",
 		"type": "room",
 		"image": "https://farm8.staticflickr.com/7032/6437200339_8f063f274e_z.jpg",
@@ -29,7 +29,7 @@ Diograph.room('http://diograph.org/room/fi.okfn.org/wg/my-data/',{
 			"diory": {
 				"ID": "http://www.diograph.org/diory/2341253346092850918273412349088",
 				"IRI": null,
-				"URL": "jogi@okf.fi",
+				"address": "jogi@okf.fi",
 				"name": "Antti Jogi Poikola",
 				"type": "agent",
 				"image": "http://d13pix9kaak6wt.cloudfront.net/avatar/apoikola_1320161305_8.jpg",
@@ -51,7 +51,7 @@ Diograph.room('http://diograph.org/room/fi.okfn.org/wg/my-data/',{
 			"diory": {
 				"ID": "http://www.diograph.org/diory/23412571092850918273412349087",
 				"IRI": null,
-				"URL": "op@diory.me",
+				"address": "op@diory.me",
 				"name": "Olli-Pekka Pohjola",
 				"type": "agent",
 				"image": "https://media.licdn.com/media/p/2/000/19c/0f2/08554ca.jpg",
@@ -74,7 +74,7 @@ Diograph.room('http://diograph.org/room/fi.okfn.org/wg/my-data/',{
 			"diory": {
 				"ID": "http://www.diograph.org/diory/23412571092850918273412349088",
 				"IRI": null,
-				"URL": "jouni@diory.me",
+				"address": "jouni@diory.me",
 				"name": "Jouni Alanen",
 				"type": "agent",
 				"image": "https://pbs.twimg.com/profile_images/1622122219/DSCN1282_3_400x400.jpg",
@@ -118,7 +118,7 @@ Diograph.room('http://diograph.org/room/fi.okfn.org/wg/my-data/',{
 			"diory": {
 				"ID": "http://www.diograph.org/diory/12234523412098374123478910234",
 				"IRI": null,
-				"URL": "http://www.lvm.fi/c/document_library/get_file?folderId=3082152&name=DLFE-25061.pdf&title=My%20data%20-%20johdatus%20ihmiskeskeiseen%20henkilotiedon%20hyodyntamiseen",
+				"address": "http://www.lvm.fi/c/document_library/get_file?folderId=3082152&name=DLFE-25061.pdf&title=My%20data%20-%20johdatus%20ihmiskeskeiseen%20henkilotiedon%20hyodyntamiseen",
 				"name": "My Data -johdatus ihmiskeskeiseen henkilötiedon hyödyntämiseen",
 				"type": "object",
 				"image": "https://raw.githubusercontent.com/okffi/mydata/master/fi/images/image-cover.jpg",
@@ -145,7 +145,7 @@ Diograph.room('http://diograph.org/room/fi.okfn.org/wg/my-data/',{
 			"diory": {
 				"ID": "http://www.diograph.org/diory/12234523412098374123478910234",
 				"IRI": null,
-				"URL": "https://pad.okfn.org/p/mydata",
+				"address": "https://pad.okfn.org/p/mydata",
 				"name": "My Data pad",
 				"type": "object",
 				"image": "",
@@ -176,7 +176,7 @@ Diograph.room('http://diograph.org/room/fi.okfn.org/wg/my-data/',{
 			"diory": {
 				"ID": "http://www.diograph.org/diory/1223452534520986456374123478910234",
 				"IRI": null,
-				"URL": "http://bit.ly/osuuskunta-taskforce",
+				"address": "http://bit.ly/osuuskunta-taskforce",
 				"name": "My Data -osuuskunta, dokumentti",
 				"type": "object",
 				"image": "",
@@ -205,7 +205,7 @@ Diograph.room('http://diograph.org/room/fi.okfn.org/wg/my-data/',{
 			"diory": {
 				"ID": "http://www.diograph.org/diory/122345253452098374123478910234",
 				"IRI": null,
-				"URL": "http://okf.fi/mydata-arkkitehtuuri",
+				"address": "http://okf.fi/mydata-arkkitehtuuri",
 				"name": "My Data -arkkitehtuuri, esitys ",
 				"type": "object",
 				"image": "",
@@ -235,7 +235,7 @@ Diograph.room('http://diograph.org/room/fi.okfn.org/wg/my-data/',{
 			"diory": {
 				"ID": "http://www.diograph.org/diory/1223452534652098374123478910234",
 				"IRI": null,
-				"URL": "https://www.facebook.com/groups/426904980732376/",
+				"address": "https://www.facebook.com/groups/426904980732376/",
 				"name": "Facebook-ryhmä",
 				"type": "object",
 				"image": "http://fi.okfn.org/files/2013/03/Facebook-logo-small2.gif",
@@ -261,7 +261,7 @@ Diograph.room('http://diograph.org/room/fi.okfn.org/wg/my-data/',{
 			"diory": {
 				"ID": "http://www.diograph.org/diory/122345253452054323423478910234",
 				"IRI": null,
-				"URL": "http://bit.ly/my_data_kansio",
+				"address": "http://bit.ly/my_data_kansio",
 				"name": "Google Drive",
 				"type": "object",
 				"image": "http://fi.okfn.org/files/2013/03/google-drive-logo-150x150.png",
@@ -287,7 +287,7 @@ Diograph.room('http://diograph.org/room/fi.okfn.org/wg/my-data/',{
 			"diory": {
 				"ID": "http://www.diograph.org/diory/3456346234652346235",
 				"IRI": null,
-				"URL": "",
+				"address": "",
 				"name": "Architecture meeting, October 20, 2014",
 				"type": "object",
 				"image": "",
@@ -317,7 +317,7 @@ Diograph.room('http://diograph.org/room/fi.okfn.org/wg/my-data/',{
 			"diory": {
 				"ID": "http://www.diograph.org/diory/3456346234323414652346235",
 				"IRI": null,
-				"URL": "https://www.eventbrite.com/e/mydata-ekosysteemit-kansallisen-kilpailukyvyn-lahteena-tickets-13683705331",
+				"address": "https://www.eventbrite.com/e/mydata-ekosysteemit-kansallisen-kilpailukyvyn-lahteena-tickets-13683705331",
 				"name": "MyData-ekosysteemit kansallisen kilpailukyvyn lähteenä",
 				"type": "object",
 				"image": "",

@@ -3,7 +3,7 @@ Diograph.room("http://diograph.org/diory/0",{
     "diory": {
         "ID": "http://diograph.org/diory/0",
         "IRI": "",
-        "address": "http://diograph.org/browser/diograph.json",
+        "address": "http://diory.co/diograph/browser/room.json",
         "name": "Welcome to the Personal Web!",
         "type": "room",
         "image": "http://diory.co/diograph/browser/images/back.jpg",
@@ -122,7 +122,7 @@ Diograph.room("http://diograph.org/diory/0",{
                 "address": "",
                 "name": "Door",
                 "type": "door",
-                "image": "http://diory.co/diograph/browser/images/door.png",
+                "image": "http://diory.co/diograph/browser/images/door.jpg",
                 "style": {
                     "back": {
                          "background-color": "rgb(77,191,217)"
@@ -140,7 +140,7 @@ Diograph.room("http://diograph.org/diory/0",{
 								"address": "room.json",
 								"name": "Home room",
 								"type": "room",
-								"image": "http://diory.co/diograph/browser/images/room.png",
+								"image": "http://diory.co/diograph/browser/images/room.jpg",
 								"style": {
 									"back": {
 										"background-color": "rgb(171,197,55)"
