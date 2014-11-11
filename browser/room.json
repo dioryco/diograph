@@ -3,7 +3,7 @@ Diograph.room("http://diograph.org/diory/0",{
     "diory": {
         "ID": "http://diograph.org/diory/0",
         "IRI": "",
-        "URL": "http://diograph.org/browser/diograph.json",
+        "address": "http://diograph.org/browser/diograph.json",
         "name": "Welcome to the Personal Web!",
         "type": "room",
         "image": "http://diory.co/diograph/browser/images/back.jpg",
@@ -25,7 +25,7 @@ Diograph.room("http://diograph.org/diory/0",{
             "diory": {
                 "ID": "http://diograph.org/diory/11",
                 "IRI": null,
-                "URL": "http://diory.co/diograph/browser/",
+                "address": "http://diory.co/diograph/browser/",
                 "name": "Browser",
                 "type": "agent",
                 "image": "http://diory.co/diograph/browser/images/browser.jpg",
@@ -43,7 +43,7 @@ Diograph.room("http://diograph.org/diory/0",{
                     "diory": {
                         "ID": "http://diograph.org/diory/112",
                         "IRI": null,
-                        "URL": "http://diory.co/diograph/browser/diory",
+                        "address": "http://diory.co/diograph/browser/diory",
                         "name": "Diograph",
                         "type": "tool",
                         "image": "http://diory.co/diograph/browser/images/diory.png",
@@ -64,7 +64,7 @@ Diograph.room("http://diograph.org/diory/0",{
                     "diory": {
                         "ID": "http://diograph.org/diory/113",
                         "IRI": null,
-                        "URL": "http://diory.co/diograph/browser/diosphere",
+                        "address": "http://diory.co/diograph/browser/diosphere",
                         "name": "Diosphere",
                         "type": "tool",
                         "image": "http://diory.co/diograph/browser/images/diosphere.png",
@@ -85,7 +85,7 @@ Diograph.room("http://diograph.org/diory/0",{
                     "diory": {
                         "ID": "http://diograph.org/diory/114",
                         "IRI": null,
-                        "URL": "http://diory.co/diograph/browser/timeline",
+                        "address": "http://diory.co/diograph/browser/timeline",
                         "name": "Timeline",
                         "type": "tool",
                         "image": "http://diory.co/diograph/browser/images/search.png",
@@ -119,7 +119,7 @@ Diograph.room("http://diograph.org/diory/0",{
             "diory": {
                 "ID": "http://diograph.org/diory/2",
                 "IRI": null,
-                "URL": "",
+                "address": "",
                 "name": "Door",
                 "type": "door",
                 "image": "http://diory.co/diograph/browser/images/door.png",
@@ -137,7 +137,7 @@ Diograph.room("http://diograph.org/diory/0",{
 							"diory": {
 								"ID": "http://diograph.org/diory/1",
 								"IRI": null,
-								"URL": "room.json",
+								"address": "room.json",
 								"name": "Home room",
 								"type": "room",
 								"image": "http://diory.co/diograph/browser/images/room.png",
@@ -159,7 +159,7 @@ Diograph.room("http://diograph.org/diory/0",{
             "diory": {
                 "ID": "http://diograph.org/diory/6",
                 "IRI": null,
-                "URL": "",
+                "address": "",
                 "name": "Diograph.org",
                 "type": "object",
                 "image": "",
@@ -189,7 +189,7 @@ Diograph.room("http://diograph.org/diory/0",{
             "diory": {
                 "ID": "http://diograph.org/diory/7",
                 "IRI": null,
-                "URL": "http://personalweb.me",
+                "address": "http://personalweb.me",
                 "name": "Personal Web blog (in Finnish only)",
                 "type": "object",
                 "image": "http://personalwebme.files.wordpress.com/2014/04/cropped-5553189_ml.jpg",
@@ -219,7 +219,7 @@ Diograph.room("http://diograph.org/diory/0",{
             "diory": {
                 "ID": "http://diograph.org/diory/8",
                 "IRI": null,
-                "URL": "http://personal-web.me",
+                "address": "http://personal-web.me",
                 "name": "Personal Web is up :)",
                 "type": "object",
                 "image": "",
