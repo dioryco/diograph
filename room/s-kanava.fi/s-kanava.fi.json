@@ -1,0 +1,358 @@
+Diograph.room('http://diograph.org/diory/s-kanava.fi/',{
+	"diory": {
+		"ID": "http://diograph.org/diory/s-kanava.fi/",
+		"IRI": null,
+		"address": "http://diory.co/diograph/room/s-kanava.fi/s-kanava.fi.json",
+		"name": "S-kanava",
+		"type": "room",
+		"image": "https://sipa.s-palvelut.fi/?url=https%3A%2F%2Flaari.sok.fi%2Fdocuments%2F419607%2F440235%2Fjoulukoriste_kuusi.jpg%2F8364b41e-3368-446a-9d2a-b394b33f1f32%3Ft%3D1360313728000&maxWidth=600&checksum=26854c38fbcec1e024964c9184f5120d",
+		"style": {},
+		"location": {
+			"type": "Point",
+			"coordinates": [60.1842864, 24.9492727, 14]
+		},
+		"date": [],
+		"created": "2014-10-22T13:16:00Z",
+		"modified": "2014-10-22T13:16:00Z"
+	},
+	"agents": [
+		{
+			"position": {
+				"left": "35%"
+			},
+			"status": "off",
+			"newItems": 0,
+			"diory": {
+				"ID": "http://www.diograph.org/diory/op@diory.me",
+				"IRI": null,
+				"address": "op@diory.me",
+				"name": "Olli-Pekka Pohjola",
+				"type": "agent",
+				"image": "https://media.licdn.com/media/p/2/000/19c/0f2/08554ca.jpg",
+				"style": {},
+				"location": {},
+				"date": [],
+				"created": "2014-10-22T13:16:00Z",
+				"modified": "2014-10-22T13:16:00Z"
+			},
+			"tools": []
+		},
+		{
+			"position": {
+				"left": "65%"
+			},
+			"status": "off",
+			"newItems": 0,
+			"diory": {
+				"ID": "http://www.diograph.org/diory/hok-elanto.aop@sok.fi",
+				"IRI": null,
+				"address": "hok-elanto.aop@sok.fi",
+				"name": "S-ryhmä",
+				"type": "agent",
+				"image": "http://www.prisma.fi/wcsstore/PRISMA_StorefrontAssetStore/img/logo-s-kanava.png",
+				"style": {},
+				"location": {},
+				"date": [],
+				"created": "2014-10-22T13:16:00Z",
+				"modified": "2014-10-22T13:16:00Z"
+			},
+			"tools": []
+		}
+	],
+	"doors": [],
+	"objects": [
+		{
+			"position": {
+				"left": "0%",
+				"top": "0%",
+				"width": "40%",
+				"height": "40%"
+			},
+			"status": "on",
+			"newItems": 0,
+
+			"diory": {
+				"ID": "http://www.diograph.org/diory/122345234120983754344123478910234",
+				"IRI": null,
+				"address": "https://www.s-kanava.fi/etu/tervetuloa-esteettisen-hammashoidon-avoimiin-oviin-611-klo-15-19-tapiolan-oraliin/1170658_25674",
+				"name": "Tervetuloa esteettisen hammashoidon Avoimiin Oviin",
+				"type": "object",
+				"image": "https://sipa.s-palvelut.fi/?url=https%3A%2F%2Flaari.sok.fi%2Fdocuments%2F25674%2F0%2FOral%2Bnainen%2Fba13dcba-5ac9-4bc6-99db-efdea79fcb14%3Ft%3D1362638765541&maxWidth=800&checksum=b50ec5e5708f8934f19f48ee857d794e",
+				"style": {
+					"back": {
+						"background-color": "rgba(84,97,112)"
+					}
+				},
+				"location": {
+					"type": "Point",
+					"coordinates": [60.174737, 24.805627, 17]
+				},
+				"date": ["2014-11-06T15:00:00+02:00", "2014-11-06T19:00:00+02:00"],
+				"created": "2014-10-22T13:16:00Z",
+				"modified": "2014-10-22T13:16:00Z"
+			},
+			"data": {},
+			"objects": [
+				{
+					"position": {
+						"left": "20%",
+						"top": "20%",
+						"width": "40%",
+						"height": "40%"
+					},
+					"status": "on",
+					"newItems": 0,
+					"diory": {
+						"ID": "http://www.diograph.org/diory/122345234543120983754344123478910234",
+						"IRI": null,
+						"address": "https://www.google.com/maps/place/Oral+Hammasl%C3%A4%C3%A4k%C3%A4rit+Oyj/@60.174737,24.805627,17z/data=!3m1!4b1!4m2!3m1!1s0x468df593dc3135cf:0x1e5582fe07651105",
+						"name": "Oral, Tapiola, Espoo, Finland",
+						"type": "object",
+						"image": "http://dev.virtualearth.net/REST/v1/Imagery/Map/Road/60.172265,24.803958/13?mapSize=260%2C260&format=png&key=AuwWutQ_vNNzae3zg8FbU0VCheY1SE5znpxV5a_Zl6mwyZFO1vu4xGFLwK6C7C_a",
+						"style": {
+							"back": {
+								"background-color": "rgba(84,97,112)"
+							}
+						},
+						"location": {
+							"type": "Point",
+							"coordinates": [60.174737, 24.805627, 17]
+						},
+						"date": [],
+						"created": "2014-10-22T13:16:00Z",
+						"modified": "2014-10-22T13:16:00Z"
+					},
+					"data": {},
+					"objects": []
+				}
+			]
+		},
+		{
+			"position": {
+				"left": "0%",
+				"top": "60%",
+				"width": "20%",
+				"height": "20%"
+			},
+			"status": "on",
+			"newItems": 0,
+			"diory": {
+				"ID": "http://www.diograph.org/diory/12234525345209834234374123478910234",
+				"IRI": null,
+				"address": "https://www.s-kanava.fi/web/s/oma-s-kanava/asiakasomistaja/omien-ostotietojen-kysely",
+				"name": "S-market Kaukajarvi, 80.30 EUR",
+				"type": "object",
+				"image": "http://static.fi.groupon-content.net/dealarc/img/slider/583/ruokaostokset-3.jpg",
+				"style": {
+					"name": {
+						"background-color": "rgba(0,0,0,0.5"
+					}
+				},
+				"location": {},
+				"date": ["2014-10-29T17:00:00+02:00", "2014-10-29T18:00:00+02:00"],
+				"created": "2014-10-22T13:16:00Z",
+				"modified": "2014-10-22T13:16:00Z"
+			},
+			"data": {},
+			"objects": [
+				{
+					"position": {
+						"left": "0%",
+						"top": "0%",
+						"width": "40%",
+						"height": "40%"
+					},
+					"status": "on",
+					"newItems": 0,
+					"diory": {
+						"ID": "http://www.diograph.org/diory/12234525345209834234374123478910234",
+						"IRI": null,
+						"address": "https://www.s-kanava.fi/toimipaikka/s-market-kaukajarvi-tampere/549989150",
+						"name": "S-market Kaukajarvi Tampere",
+						"type": "object",
+						"image": "https://sipa.s-palvelut.fi/?url=https%3A%2F%2Flaari.sok.fi%2Fimage%2Fimage_gallery%3Fuuid%3D3941a2d0-6a98-4d73-be6a-6a34a60924d3%3B%3A%3BgroupId%3D10876%3B%3A%3Bt%3D1296120909008&maxWidth=800&checksum=bf3f369ab50f25b8c1611c0d1e876b56",
+						"style": {
+							"back": {
+								"background-color": "rgb(125,56,148)"
+							}
+						},
+						"location": {},
+						"date": [],
+						"created": "2014-10-22T13:16:00Z",
+						"modified": "2014-10-22T13:16:00Z"
+					},
+					"data": {},
+					"objects": []
+				},
+				{
+					"position": {
+						"left": "40%",
+						"top": "40%",
+						"width": "40%",
+						"height": "40%"
+					},
+					"status": "on",
+					"newItems": 0,
+					"diory": {
+						"ID": "http://www.diograph.org/diory/12234523412098374123478934534510234",
+						"IRI": null,
+						"address": "http://www.yhteishyva.fi/ruoka-ja-reseptit/reseptit/pestolihapullat/014372",
+						"name": "Pestolihapullat",
+						"type": "object",
+						"image": "http://sipa.s-palvelut.fi/?url=http%3A%2F%2Fwww.yhteishyva.fi%2Fdocuments%2F18010%2F283388%2Fpestolihapullat.jpg%2F3cd038d5-3dbf-448d-8db8-7907f32ec416%3Ft%3D1390224768000&maxWidth=440&maxHeight=330&highDensity=true&checksum=246706806e41199b07129cd88e37199c",
+						"style": {
+							"name": {
+								"background-color": "rgba(0,0,0,0.5"
+							}
+						},
+						"location": {},
+						"date": ["2014-10-30T18:00:00+02:00", "2014-10-30T19:00:00+02:00"],
+						"created": "2014-10-22T13:16:00Z",
+						"modified": "2014-10-22T13:16:00Z"
+					},
+					"data": {},
+					"objects": []
+				},
+				{
+					"position": {
+						"left": "60%",
+						"top": "0%",
+						"width": "40%",
+						"height": "40%"
+					},
+					"status": "on",
+					"newItems": 0,
+					"diory": {
+						"ID": "http://www.diograph.org/diory/1223452233412234098374123478910234",
+						"IRI": null,
+						"address": "https://www.s-pankki.fi/fi/artikkelit/2014/saastamisen-autuus/",
+						"name": "Saastamisen autuus, Vesa Engdahl",
+						"type": "object",
+						"image": "https://www.s-pankki.fi/globalassets/media/artikkelien-kuvitukset/isa_lapset_1000x450.jpg?width=1120&quality=90",
+						"style": {},
+						"location": {},
+						"date": [],
+						"created": "2014-10-22T13:16:00Z",
+						"modified": "2014-10-22T13:16:00Z"
+					},
+					"data": {},
+					"objects": []
+				},
+				{
+					"position": {
+						"left": "0%",
+						"top": "40%",
+						"width": "40%",
+						"height": "40%"
+					},
+					"status": "on",
+					"newItems": 0,
+					"diory": {
+						"ID": "http://www.diograph.org/diory/12234523415432098374123478910234",
+						"IRI": null,
+						"address": "https://www.s-kanava.fi/etu/lasten-synttarit-pizzakoulu-hotellissa/1498769_762382",
+						"name": "Lasten synttarit - pizzakoulu hotellissa",
+						"type": "object",
+						"image": "https://sipa.s-palvelut.fi/?url=https%3A%2F%2Flaari.sok.fi%2Fdocuments%2F762382%2F1178625%2Flasten%2Bpizza%2Bkoulu%2Fd9e07f2b-3632-4602-adea-81fdd6440810%3Ft%3D1415100422251&maxWidth=800&checksum=515881bad69b1fde02eeebf79161a681",
+						"style": {},
+						"location": {},
+						"date": ["2014-11-02T17:00:00+02:00", "2014-11-02T20:00:00+02:00"],
+						"created": "2014-10-22T13:16:00Z",
+						"modified": "2014-10-22T13:16:00Z"
+					},
+					"data": {},
+					"objects": []
+				}
+			]
+		},
+		{
+			"position": {
+				"left": "60%",
+				"top": "0%",
+				"width": "40%",
+				"height": "100%"
+			},
+			"status": "on",
+			"newItems": 0,
+
+			"diory": {
+				"ID": "http://www.diograph.org/diory/1223434534552534652098374145623478910234",
+				"IRI": null,
+				"address": "http://www.smarkethokelanto.fi/tarjoukset.html",
+				"name": "Viikon tarjoukset",
+				"type": "object",
+				"image": "http://www.smarkethokelanto.fi/uploads/pics/s-market_Netti-ilmoitus_vko45.jpg",
+				"style": {
+					"name": {
+						"background-color": "rgba(0,0,0,0.5"
+					}
+				},
+				"location": {},
+				"date": ["2014-10-27T12:00:00+02:00", "2014-10-31T18:00:00+02:00"],
+				"created": "2014-10-22T13:16:00Z",
+				"modified": "2014-10-22T13:16:00Z"
+			},
+			"data": {},
+			"objects": [
+			]
+		},
+		{
+			"position": {
+				"left": "20%",
+				"top": "40%",
+				"width": "40%",
+				"height": "40%"
+			},
+			"status": "on",
+			"newItems": 0,
+
+			"diory": {
+				"ID": "http://www.diograph.org/diory/1223452534523422054323423478910234",
+				"IRI": null,
+				"address": "https://www.s-kanava.fi/etu/hyodynna-tuoksuetusi/1494265_11202",
+				"name": "Hyödynnä tuoksuetusi!",
+				"type": "object",
+				"image": "https://sipa.s-palvelut.fi/?url=https%3A%2F%2Flaari.sok.fi%2Fdocuments%2F11202%2F0%2FSokos%2BEmotion%2Btuoksuetukuponki%2F8a13527a-5c2b-43c9-9b33-84201abca700%3Ft%3D1414757205942&maxWidth=800&checksum=2a99e390fe25cd1e4bb5968f440cea09",
+				"style": {},
+				"location": {},
+				"date": [],
+				"created": "2014-10-22T13:16:00Z",
+				"modified": "2014-10-22T13:16:00Z"
+			},
+			"data": {},
+			"objects": [
+			]
+		},
+		{
+			"position": {
+				"left": "40%",
+				"top": "0%",
+				"width": "20%",
+				"height": "20%"
+			},
+			"status": "on",
+			"newItems": 0,
+
+			"diory": {
+				"ID": "http://www.diograph.org/diory/34534534526346234652346235",
+				"IRI": null,
+				"address": "https://www.s-kanava.fi/etu/kodin-terrasta-bonus-tuplana-3811/1482610_10870",
+				"name": "Kodin Terrasta Bonus tuplana 3.–8.11.",
+				"type": "object",
+				"image": "https://sipa.s-palvelut.fi/?url=https%3A%2F%2Flaari.sok.fi%2Fdocuments%2F10870%2F1006653%2FBonus%2Btuplana%2BKodin%2BTerra%2F386930b6-d7c9-42cd-b15e-8ad64ae20588%3Ft%3D1414390254096&maxWidth=800&checksum=99ebb5ba446aabcc21c42389820750e5",
+				"style": {
+					"back": {
+						"background-color": "rgba(84,97,112,1)"
+					}
+				},
+				"location": {},
+				"date": ["2014-11-03T10:00:00+03:00", "2014-11-08T19:00:00+03:00"],
+				"created": "2014-10-22T13:16:00Z",
+				"modified": "2014-10-22T13:16:00Z"
+			},
+			"data": {},
+			"objects": [
+			]
+		}
+	]
+});
