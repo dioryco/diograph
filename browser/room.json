@@ -247,7 +247,37 @@ Diograph.room("http://diograph.org/diory/0",{
             "newItems": 0,
             "data": [],
             "objects": []
-        }
+        },
+				{
+					"diory": {
+						"ID": "http://diograph.org/diory/9",
+						"IRI": null,
+						"address": "http://diograph.org/browser/",
+						"name": "Browser beginned browsing :)",
+						"type": "object",
+						"image": "",
+						"style": {
+							"back": {
+								"background-color": "rgb(232,77,33)"
+							}
+						},
+						"text": "",
+						"location": {},
+						"date": ["2014-11-11T15:53:00+02:00"],
+						"created": "2014-11-11T15:53:00Z",
+						"modified": "2014-11-11T15:53:00Z"
+					},
+					"position": {
+						"left": "20%",
+						"top": "60%",
+						"width":"20%",
+						"height": "20%"
+					},
+					"status": "off",
+					"newItems": 0,
+					"data": [],
+					"objects": []
+				}
     ],
     "moments": [],
     "places": []
