@@ -1,4 +1,4 @@
-Diograph.callback("http://diograph.org/schema",{
+{
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
     "css": "http://www.w3.org/wiki/CSS/Properties/",
@@ -7,27 +7,19 @@ Diograph.callback("http://diograph.org/schema",{
     "diory": "diograph:diory",
 
     "ID": "@id",
+    "name": "dct:title",
+    "type": "@type",
     "IRI": {
         "@id": "dct:abstract",
         "@type": "@id"
     },
-    "URL": {
+    "address": {
         "@id": "dct:source",
         "@type": "xsd:anyURI"
     },
-    "name": "dct:title",
-    "type": "@type",
-    "image": "http://purl.org/dc/dcmitype/image",
+    "background": "http://purl.org/dc/dcmitype/image",
 
     "style": "diograph:style",
-    "back": "style:back",
-    "caption": "style:caption",
-    "link": "style:link",
-
-    "background": "css:background",
-    "font": "css:font",
-    "color": "css:color",
-
     "date": {
         "@id": "dct:date",
         "@container": "@list"
@@ -51,19 +43,13 @@ Diograph.callback("http://diograph.org/schema",{
     "Point": "geo:Point",
 
     "position": "style:position",
-    "left": "css:left",
-    "top": "css:top",
-    "width": "css:width",
-    "height": "css:height",
-		"padding-bottom": "css:padding-bottom",
     "status": "diograph:status",
-    "newItems": "diograph:newItems",
 
     "doors": {
         "@id": "diograph:doors",
         "@container": "@list"
     },
-    "agents": {
+    "avatars": {
         "@id": "diograph:agents",
         "@container": "@list"
     },
@@ -71,20 +57,20 @@ Diograph.callback("http://diograph.org/schema",{
 				"@id": "diograph:tools",
 				"@container": "@list"
 		},
-    "objects": {
-        "@id": "diograph:objects",
+    "diorys": {
+        "@id": "diograph:diorys",
         "@container": "@list"
     },
     "moments": {
         "@id": "diograph:moments",
         "@container": "@list"
     },
-		"actions": {
-				"@id": "diograph:actions",
-				"@container": "@list"
-		},
-		"places": {
-				"@id": "diograph:places",
-				"@container": "@list"
-		}
+    "actions": {
+            "@id": "diograph:actions",
+            "@container": "@list"
+    },
+    "places": {
+            "@id": "diograph:places",
+            "@container": "@list"
+    }
 }

@@ -1,10 +1,11 @@
-Diograph.diory('http://diograph.org/diory/fi.okfn.org/wg/my-data/',{
+{
 	"ID": "http://diograph.org/room/fi.okfn.org/wg/my-data/",
-	"IRI": null,
-	"URL": "http://fi.okfn.org/wg/my-data/",
-	"name": "My Data -tyoryhma",
+  	"version": "0.1.9",
 	"type": "room",
-	"image": "https://farm8.staticflickr.com/7032/6437200339_8f063f274e_z.jpg",
+  	"name": "My Data -tyoryhma",
+	"IRI": null,
+	"address": "http://fi.okfn.org/wg/my-data/",
+	"background": "https://farm8.staticflickr.com/7032/6437200339_8f063f274e_z.jpg",
 	"style": {},
 	"location": {
 		"type": "Point",
@@ -13,4 +14,4 @@ Diograph.diory('http://diograph.org/diory/fi.okfn.org/wg/my-data/',{
 	"date": [],
 	"created": "2014-10-22T13:16:00Z",
 	"modified": "2014-10-22T13:16:00Z"
-});
+}
