@@ -65,8 +65,6 @@ class="octicon octicon-link"></span></a>Conceptual Model</h2>
     Diory is the basic information unit and element in the Personal Web. A diory consists of name, text, image and address elements. Personal Web tools can attach buttons to diories.
 </p>
 
-<image src="images/diory.png"></image>
-
 <pre><code>diory.json:
 
     {
@@ -121,14 +119,15 @@ class="octicon octicon-link"></span></a>Conceptual Model</h2>
 </p>
 
 <pre><code>
-    <dg-image ng-class="diory.class.image" ng-style="diory.style.image">
+
+    /"<dg-image ng-class="diory.class.image" ng-style="diory.style.image">
         <i class="icon" ng-class="diory.class.image" ng-style="{'background-image': 'url(' + diory.image + ')'}"></i>
     </dg-image>
     <a dg-address ng-if="diory.address" ng-style="diory.style.address" ng-href="{{diory.address}}" target="_blank">
         <i class="big icon" ng-class="diory.class.address"></i></a>
     <dg-name class="ui header" ng-class="diory.class.name" ng-style="diory.style.name" ng-bind="diory.name"></dg-name>
     <dg-text ng-class="diory.class.text" ng-style="diory.style.text" ng-bind="diory.text"></dg-text>
-    <dg-buttons ng-transclude ng-mousedown="select($event,diory)"></dg-buttons>
+    <dg-buttons ng-transclude ng-mousedown="select($event,diory)"></dg-buttons>/"
 </code></pre>
 
 <p>
@@ -142,8 +141,6 @@ class="octicon octicon-link"></span></a>Conceptual Model</h2>
     Room is the container in the Personal Web. A room consists of walls, floor and sky as a ceiling.
     A room contains diories and tools.
 </p>
-
-<image src="images/room.png"></image>
 
 <pre><code>room.json:
 
