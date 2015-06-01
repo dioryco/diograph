@@ -44,22 +44,18 @@ class="octicon octicon-link"></span></a>Conceptual Model</h2>
     Personal Web is a personal information system that sits between the WWW (global information system) and Files and
     Folders (local information system). Its purpose is to give people a better way to think and a neutral way to have
     digital information.
-
+</p><p>
     The core of the Personal Web is the Diograph -data model that is used in
     the Personal Web applications and that is stored in any file system. The Diograph -data model is based on the
     Digital Habitat -conceptual model, the new way of thinking digital information.
-
+</p><p>
     The design principle of the Personal Web is that our digital environment should be similar to our physical environment.
     The same principle is used also before in the <a href="http://en.wikipedia.org/wiki/Desktop_metaphor">desktop metaphor</a> and <a href="http://mashable.com/2010/01/13/conceptual-metaphors/">paper/document metaphor</a>
-
+</p><p>
     Personal Web, respectively, consists of places like our physical environment. A place has owners, which are represented by avatars. A place again consists of rooms.
-
+</p><p>
     A room is the main functional unit of the Personal Web. A room has walls, floor and sky as a ceiling. Each of these contain diories (digital memories), the basic information units of the Personal Web.
     Diories can be organized into a graph (semantic memory), a timeline (temporal memory), a map (spatial memory), a flowchart (procedural memory) or as a landscape of doors to other rooms.
-
-    `place` -> `avatar`, `room` -> 'diory' (digital memory)
-    'room' -> `wall`, `floor`, `sky` -> `diory` (digital memory)
-    (Conceptual model of the Personal Web)
 </p>
 
 <h2><a name="diory" class="anchor" href="#diory"><span
@@ -75,11 +71,11 @@ class="octicon octicon-link"></span></a>Conceptual Model</h2>
 
     {
         "ID": "21EC2020-3AEA-4069-A2DD-08002B30309D4", // GUID (mandatory)
-        "version": "0.1.6",
+        "version": "0.1.9",
         "IRI": "http://dbpedia.org/example", // For linked data
         "name": "This is the name of the diory",
         "text": "This is text in the diory",
-        "image": "http://example.com/image.jpg",
+        "background": "http://example.com/image.jpg",
         "address": "http://example.com/webpage/",
         "data": {...},
         "class": { // CSS class for sub-elements (see list of available classes)
@@ -103,6 +99,7 @@ class="octicon octicon-link"></span></a>Conceptual Model</h2>
         "modified": "2015-01-29T07:06:00Z",
         "connections": {
             {dioryID}: {
+                "roomID": "54AA020-3AEA-4069-A2DD-08002B30309D4",
                 "position": {},
                 "status": {}
             }
@@ -151,27 +148,16 @@ class="octicon octicon-link"></span></a>Conceptual Model</h2>
 <pre><code>room.json:
 
     {
-        "diory": {...},
-        "diories": {
-            "21EC2020-3AEA-4069-A2DD-08002B30309D4": {...}
-        },
+        "ID": "03a0ddc5-9427-44b5-a066-67b61ca44cbc",
         "avatars": {
             "oopee@iki.fi": {
+                "roomID": "03a0ddc5-9427-44b5-a066-67b61ca44cbc",
                 "position": {},
                 "status": {}
             }
         },
-        "rooms": {
-            "ebffe2e7-d44c-44ce-b522-584390429c9d": {
-                "position": {},
-                "status": {}
-            },
-            "avatars": {
-                "opohjola@gmail.com": {
-                    "position": {},
-                    "status": {}
-                }
-            }
+        "diorys": {
+            "21EC2020-3AEA-4069-A2DD-08002B30309D4": {...}
         }
     }
 
@@ -209,26 +195,6 @@ class="octicon octicon-link"></span></a>Conceptual Model</h2>
         <h2><a name="format" class="anchor" href="#format"><span
 class="octicon octicon-link"></span></a>Format</h2>
 
-<p>
-
-    Diograph (digital biography) is a text document (JSON-LD format) for storing information of a room.
-</p>
-
-<pre><code>room.json:
-
-    {
-        "diory": {...},
-        "position": {...},
-        "status": "on",
-        "newThings": "2",
-        "agents": [...],
-        "doors": [...],
-        "objects": [...],
-        "moments": [...],
-        "places": [...]
-    }
-
-</code></pre>
 
 <h3><a name="diory-format" class="anchor" href="#diory-format"><span
 class="octicon octicon-link"></span></a>Diory Format</h3>
@@ -238,178 +204,7 @@ Diory (digital memory) is the unit of information in the Personal Web. A diory r
 </p>
 
 
-<h3><a name="object-format" class="anchor" href="#object-format"><span
-        class="octicon octicon-link"></span></a>Thing Format</h3>
-
-<p>
-    Doors, objects, agents, keys and tools are things. Things can be copied from a room to another.
-</p>
-
-<pre><code>door.json:
-
-    {
-        "diory": "",
-        "position": {...},
-        "status": "on", // On, off
-        "newThings": "", // New things since previous update
-        "agents": [...],
-        "key": ""
-    }
-
-agent.json:
-
-    {
-        "diory": "",
-        "position": {},
-        "status": "",
-        "newThings": "",
-        "tools": [],
-        "keys": [
-            {
-                "ID": "", // Door
-                "key": ""
-            }
-        ]
-    }
-
-object.json:
-
-    {
-        "diory": "",
-        "position": {},
-        "status": "",
-        "newThings": "",
-        "objects": []
-    }
-
-</code></pre>
-
-<h3><a name="dimension-format" class="anchor" href="#dimension-format"><span
-        class="octicon octicon-link"></span></a>Dimension Format</h3>
-
-<p>
-    Moment and place are dimensions.
-</p>
-
-<pre><code>moment.json:
-
-    {
-        "diory": "",
-        "position": {},
-        "status": "",
-        "newThings": "",
-        "key": ""
-        "objects": []
-    }
-
-place.json:
-
-    {
-        "diory": "",
-        "position": {},
-        "status": "",
-        "newThings": "",
-        "objects": []
-    }
-
-</code></pre>
-
-<h3><a name="security-model" class="anchor" href="#security-model"><span
-        class="octicon octicon-link"></span></a>Security Model</h3>
-
-<p>The Personal Web is based on the Document Encryption security model. The room.json document is encrypted with the
-    AES-256 algorithm. Agents have keys to the room or keys can be in doors in other rooms.</p>
-
-<pre><code>door.json:
-
-    {
-        "diory": "",
-        "position": {...},
-        "status": "on", // On, off
-        "newThings": "", // New things since previous update
-        "agents": [...],
-        "key": ""
-    }
-
-agent.json:
-
-    {
-        "diory": "",
-        "position": {},
-        "status": "",
-        "newThings": "",
-        "tools": [],
-        "keys": [
-            {
-                "ID": "", // Room
-                "key": ""
-            }
-        ]
-    }
-
-</code></pre>
-
-<p>Options to share a room:
-    <ol>
-        <li>Send the room.json and key.</li>
-        <li>Send door with key.</li>
-        <li>Send door and agent with key.</li>
-    </ol>
-</p>
-<p>Decrypt, encrypt with new key, send key to agents in the room.</p>
-<p>Places (servers) may have the standard access control method. Is it possible to save with a token saved in the room?</p>
-
-<h3><a name="personal-browser" class="anchor" href="#personal-browser"><span
-class="octicon octicon-link"></span></a>Personal Browser</h3>
-
-<p>Personal Browser is a html5 application that reads Diograph JSON-LD format. Use here or download to here.</p>
-
-<pre><code>
-    http://personal-browser-domain-and-path?address&key
-    http://personal-browser-domain-and-path?address&key&diory
-
-</code></pre>
-
-<p>Address is the URL-address of the room.json file. Key opens the door to the room, if it's locked.</p>
-
-<pre><code>
-    http://personal-browser-domain-and-path?room&diory
-
-</code></pre>
-
-<h3><a name="naming-convention" class="anchor" href="#naming-convention"><span
-        class="octicon octicon-link"></span></a>Structure and naming</h3>
-
-<p>Conventions follow guidelines from <a href="https://docs.google.com/document/d/1XXMvReO8-Awi1EZXAXS4PzDzdNvV6pGcuaF4Q9821Es/pub">Best
-    Practice Recommendations for Angular App Structure</a> and <a
-        href="https://github.com/airbnb/javascript">Airbnb JavaScript Style Guide() {</a>.
-    </p>
-
-<pre><code>
-    id="DgIndentity"
-    class="dg class"
-    dgDirective
-    DgCtrl
-    DgFunction
-    var dgVariable
-</code></pre>
-
-<h3><a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span
-class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate
-a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub
-Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>),
-PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner
-(<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3><a name="support-or-contact" class="anchor" href="#support-or-contact"><span
-class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a>
-or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-
-    </section>
+</section>
 </div>
 
 <script type="text/javascript">
